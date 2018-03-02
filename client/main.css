@@ -1,0 +1,63 @@
+/* CSS declarations go here */
+body{
+    background: #fafafa;
+    color: #333333;
+}
+
+input{
+	-webkit-appearance: textfield;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+.section{
+	padding: 20px 0;
+}
+
+.addr-input{
+	padding: 0 3px;
+}
+
+.title{
+	font-size: 18px;
+}
+
+.line{
+	border-top: 3px solid #251111;
+	height: 2px;
+	width: 90%;
+	text-align: center;
+	margin: 3px 0;
+}
+
+
+#sendToken{
+	background: #4E8672;
+	color: #fafafa;
+	margin-bottom: 10px;
+	font-weight: 400;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    padding: 12px 24px 12px 24px;
+    text-align: center;
+    outline-width: 0;
+    border-radius: 0px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    z-index: 0;
+    border-radius: 15px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    border-left: 1px solid rgba(0,0,0,0.1);
+}

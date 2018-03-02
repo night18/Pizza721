@@ -1,0 +1,30 @@
+<head>
+  <title>Test Pizza Faucet</title>  
+</head>
+  
+<body>
+  <nav class="navbar navbar-default">
+    <h1 class="container-fluid"> Adventure Pizza </h1>
+  </nav>
+  <div class="container">
+    {{> address}}
+  </div>
+  
+
+
+</body>
+
+<template name="address">
+  <div class="section">
+    <p>Enter your testnet (Ropsten) account address</p>
+    <p><input type="text" id="addr-input" name="addr-input" class="addr-input" size="42"></p>
+    <button id="sendToken">Send me 1 ERC-721 token</button>
+  </div>
+  <div class="section">
+    <div class="line"></div>
+    <p class="title">Transaction</p>
+    <div id="transHex"></div>
+    <div class="line"></div>
+  </div>
+</template>
+
