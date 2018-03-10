@@ -61,3 +61,7 @@ input{
     border-bottom: 2px solid rgba(0,0,0,0.2);
     border-left: 1px solid rgba(0,0,0,0.1);
 }
+
+.hide{
+    display: none;
+}
