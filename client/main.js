@@ -77,7 +77,7 @@ Template.address.events({
 						        para.append(icon);
 						        $('#complete').append(para);
 								$('#complete').removeClass('hide');
-								$('#padding').toggleClass('hide');
+								$('#pending').toggleClass('hide');
 							});
 							
 
